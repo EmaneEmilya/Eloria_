@@ -11,12 +11,12 @@ import haircareImg from '@assets/generated_images/Haircare_category_image_a51c00
 import bodycareImg from '@assets/generated_images/Body_care_category_image_d6d0afaa.png';
 import masksImg from '@assets/generated_images/Masks_and_serums_category_081fd1b9.png';
 
-import product1 from '@assets/stock_images/balea_cosmetics_prod_52e66274.jpg';
-import product2 from '@assets/stock_images/balea_cosmetics_prod_ead863cc.jpg';
-import product3 from '@assets/stock_images/balea_cosmetics_prod_bf432f80.jpg';
-import product4 from '@assets/stock_images/balea_cosmetics_prod_2c227301.jpg';
-import product5 from '@assets/stock_images/balea_cosmetics_prod_35f763bb.jpg';
-import product6 from '@assets/stock_images/balea_cosmetics_prod_25b4640b.jpg';
+import product1 from '@assets/image_1762977841391.png';
+import product2 from '@assets/image_1762977843790.png';
+import product3 from '@assets/image_1762977848467.png';
+import product4 from '@assets/image_1762977852112.png';
+import product5 from '@assets/image_1762977865880.png';
+import product6 from '@assets/image_1762977869723.png';
 
 export default function Home() {
   const categories = [
@@ -44,46 +44,46 @@ export default function Home() {
 
   const products = [
     {
-      name: 'Sérum Niacinamide Balea',
-      description: 'Éclaircit et unifie le teint. Formule légère avec niacinamide pour une peau radieuse.',
-      price: '€5.99',
+      name: 'Balea Crème de Jour',
+      description: 'Crème de jour hydratante pour une peau douce et éclatante toute la journée.',
+      price: '65 DH',
       image: product1,
       category: 'Soins du Visage',
     },
     {
-      name: 'Gel Nettoyant Ultra Sensitive Med',
-      description: 'Nettoyage doux pour peaux sensibles. Sans parfum, testé dermatologiquement.',
-      price: '€3.49',
+      name: 'Balea Soft Cream 0%',
+      description: 'Crème douce délicate au parfum de framboise. Sans alcool, pour une peau soyeuse.',
+      price: '55 DH',
       image: product2,
       category: 'Soins du Visage',
     },
     {
-      name: 'Peeling Liquide 2% BHA',
-      description: 'Exfoliant doux qui affine les pores et améliore la texture de la peau.',
-      price: '€5.95',
+      name: 'Collection Gels Douche Balea',
+      description: 'Ensemble de gels douche aux parfums variés pour une expérience de douche rafraîchissante.',
+      price: '120 DH',
       image: product3,
-      category: 'Soins du Visage',
-    },
-    {
-      name: 'Crème Q10 Anti-Rides',
-      description: 'Formule anti-âge enrichie en Q10 pour réduire les signes de vieillissement.',
-      price: '€4.99',
-      image: product4,
-      category: 'Soins du Visage',
-    },
-    {
-      name: 'Sérum Capillaire Professional',
-      description: 'Renforce les cheveux, stimule la croissance avec Panthénol et Kératine.',
-      price: '€9.99',
-      image: product5,
-      category: 'Soins des Cheveux',
-    },
-    {
-      name: 'Huile de Beauté Naturelle Bio',
-      description: 'Huile multifonction bio pour visage, corps et cheveux. 100% naturelle.',
-      price: '€10.00',
-      image: product6,
       category: 'Soins du Corps',
+    },
+    {
+      name: 'Balea Déodorant Crème Sensitive 0%',
+      description: 'Protection 48h pour peaux sensibles. Sans aluminium, doux et efficace.',
+      price: '45 DH',
+      image: product4,
+      category: 'Soins du Corps',
+    },
+    {
+      name: 'Balea Gel Douche Vanille & Coco',
+      description: 'Gel douche onctueux au parfum gourmand de vanille et noix de coco.',
+      price: '50 DH',
+      image: product5,
+      category: 'Soins du Corps',
+    },
+    {
+      name: 'Balea Gel Peeling',
+      description: 'Gel exfoliant doux qui élimine les cellules mortes pour une peau lisse et éclatante.',
+      price: '70 DH',
+      image: product6,
+      category: 'Soins du Visage',
     },
   ];
 
