@@ -12,7 +12,7 @@ export default function Footer() {
   const socialLinks = [
     { 
       icon: Instagram, 
-      href: 'https://www.instagram.com/eloria_careandglow/',
+      href: 'https://instagram.com',
       label: 'Instagram',
       testId: 'link-social-instagram'
     },
